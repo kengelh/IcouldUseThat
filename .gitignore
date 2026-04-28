@@ -1,0 +1,23 @@
+# .gitignore for RimWorld Mod
+# Standard C# / Visual Studio ignores
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDE folders
+.vs/
+.idea/
+.vscode/
+
+# MacOS files
+.DS_Store
+
+# RimWorld specific
+# We usually keep the Assemblies folder if we want the mod to be "ready to use" from the repo,
+# but if the user wants to keep the repo clean and only have source, we'd ignore it.
+# However, for publishing, having the DLL in the version-specific folder is common.
+# Let's ignore the root-level Assemblies if it's used for temporary builds.
+# Assemblies/
