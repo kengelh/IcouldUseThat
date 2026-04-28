@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>I Could Use That</name>
+  <name>ICouldUseThat</name>
   <author>kengelh</author>
   <packageId>vibecoded.icut</packageId>
   <supportedVersions>
@@ -13,7 +13,7 @@ Features:
 - Mark items for hauling (supports Haul Urgently).
 - Filter by type (Melee, Ranged, Apparel, Medicine, Food, Drugs, Chemicals).
 - Filter by Quality and Hit Points.
-- Ignores corpses and chunks by default.
+
   </description>
   <modDependencies>
     <li>
